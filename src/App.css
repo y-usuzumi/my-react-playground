@@ -36,3 +36,43 @@
     transform: rotate(360deg);
   }
 }
+
+.main-window {
+  display: flex;
+  height: 100vh;
+  align-items: stretch;
+}
+
+.nav {
+  margin: 20px;
+}
+
+.component-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.component-list-button {
+  width: 100%;
+}
+
+.splitter {
+  width: 3px;
+  background-color:#282c34; 
+}
+
+.component-view {
+  margin: 20px;
+  flex-grow: 1;
+}
+
+.component-view-description {
+  border-radius: 1em;
+  border-width: 1px;
+  border-style: solid;
+  padding: 1em;
+}
+
+.component-view-component {
+}
